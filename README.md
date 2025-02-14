@@ -31,15 +31,15 @@ pip install python-telegram-bot --upgrade
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/aitu-telegram-bot.git
-cd aitu-telegram-bot
+git clone https://github.com/oiibar/ITP_Project.git
+cd ITP_Project
 ```
 
 2. Replace the `TOKEN` variable in the script with your own Telegram bot token.
 
 3. Run the bot:
 ```bash
-python bot.py
+python main.py
 ```
 
 ## Commands Overview
@@ -70,15 +70,3 @@ python bot.py
 
 - If a user enters an invalid input (non-numeric), the bot prompts them to enter a valid number
 - Unknown commands are handled with an appropriate response
-
-## Deployment
-
-You can deploy this bot on a cloud server or use services like Heroku or Railway.app.
-
-## License
-
-This project is open-source and available under the MIT License.
-
-## Author
-
-Developed by Your Name
